@@ -1,0 +1,616 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.20)  29 MAY 2015 09:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**root.tex
+(./root.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 2 languages loaded.
+(./ieeeconf.cls
+
+LaTeX Warning: You have requested document class `ieeeconf',
+               but the document class provides `cssconf'.
+
+Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\@IEEEnormalsizefontbaselineskip=\skip41
+
+-- This is a 10 point document.
+\normalsizebaselineskip=\skip42
+\normaljot=\skip43
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\skip44
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen112
+\c@biography=\count90
+\@IEEEtranrubishbin=\box26
+)
+** ATTENTION: Overriding command lockouts (line 9).
+** ATTENTION: Overriding IEEE standard margins (line 12).
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count92
+\lst@gtempboxa=\box27
+\lst@token=\toks16
+\lst@length=\count93
+\lst@currlwidth=\dimen115
+\lst@column=\count94
+\lst@pos=\count95
+\lst@lostspace=\dimen116
+\lst@width=\dimen117
+\lst@newlines=\count96
+\lst@lineno=\count97
+\lst@maxwidth=\dimen118
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count98
+\lst@skipnumbers=\count99
+\lst@framebox=\box28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks17
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/05/13 v2.10 `tabularx' package (DPC)
+\TX@col@width=\dimen121
+\TX@old@table=\dimen122
+\TX@old@col=\dimen123
+\TX@target=\dimen124
+\TX@delta=\dimen125
+\TX@cols=\count100
+\TX@ftn=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks19
+\float@box=\box29
+\@float@everytoks=\toks20
+\@floatcapt=\box30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \begin {center}{\footnotesize #1}\\{\footnotesize \scshape #2}\end {c
+enter}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@te
+mpboxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@te
+mpboxa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent
+ \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize
+ \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempbo
+xa \hfil }\fi \fi \fi .
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count103
+\c@subtable=\count104
+) (./root.aux)
+\openout1 = `root.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen133
+\scratchbox=\box31
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen134
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count111
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./root.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+)
+\tf@toc=\write3
+\openout3 = `root.toc'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3
+
+] [4] [5]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no Ž in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no Ž in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no Ž in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/body-
+ []
+
+
+Overfull \hbox (9.60258pt too wide) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/underscore| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/crypto-
+ []
+
+
+Overfull \hbox (13.5023pt too wide) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/nodemailer/| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/email-
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 Node pack-age used for ma-nip-u-lat-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/express-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://www.npmjs.com/package/express-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/ptm/m/n/10 https://developers.google.com-
+ []
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 213--214
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+
+
+]
+Overfull \vbox (15.86484pt too high) has occurred while \output is active []
+
+
+[7]
+\c@exno=\count112
+
+Overfull \hbox (8.29686pt too wide) in alignment at lines 227--263
+[][] 
+ []
+
+<images/MVC.png, id=28, 735.74875pt x 235.88126pt>
+File: images/MVC.png Graphic file (type png)
+ <use images/MVC.png>
+Package pdftex.def Info: images/MVC.png used on input line 288.
+(pdftex.def)             Requested size: 252.94499pt x 81.09477pt.
+
+<images/authentication.png, id=30, 1284.8pt x 671.50874pt>
+File: images/authentication.png Graphic file (type png)
+
+<use images/authentication.png>
+Package pdftex.def Info: images/authentication.png used on input line 296.
+(pdftex.def)             Requested size: 505.89pt x 264.40796pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./images/MVC.png>] <images/changepassword.png, id=35, 496.85625pt x 253.94
+875pt>
+File: images/changepassword.png Graphic file (type png)
+
+<use images/changepassword.png>
+Package pdftex.def Info: images/changepassword.png used on input line 304.
+(pdftex.def)             Requested size: 252.94499pt x 129.28352pt.
+
+<images/resetpassword.png, id=36, 468.75125pt x 167.62625pt>
+File: images/resetpassword.png Graphic file (type png)
+
+<use images/resetpassword.png>
+Package pdftex.def Info: images/resetpassword.png used on input line 312.
+(pdftex.def)             Requested size: 252.94499pt x 90.45287pt.
+
+<images/resetemail.png, id=37, 848.16875pt x 283.0575pt>
+File: images/resetemail.png Graphic file (type png)
+
+<use images/resetemail.png>
+Package pdftex.def Info: images/resetemail.png used on input line 320.
+(pdftex.def)             Requested size: 505.89pt x 168.82944pt.
+ [9 <./images/authentication.png> <./images/changepassword.png (PNG copy)> <./i
+mages/resetpassword.png (PNG copy)>]
+<images/browse.png, id=41, 1288.815pt x 674.52pt>
+File: images/browse.png Graphic file (type png)
+ <use images/browse.png>
+Package pdftex.def Info: images/browse.png used on input line 328.
+(pdftex.def)             Requested size: 505.89pt x 264.77026pt.
+
+<images/search-location.png, id=42, 1291.82625pt x 671.50874pt>
+File: images/search-location.png Graphic file (type png)
+
+<use images/search-location.png>
+Package pdftex.def Info: images/search-location.png used on input line 336.
+(pdftex.def)             Requested size: 505.89pt x 262.96323pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./images/resetemail.png (PNG copy)> <./images/browse.png>]
+<images/selectmultipledates.png, id=46, 1290.8225pt x 674.52pt>
+File: images/selectmultipledates.png Graphic file (type png)
+
+<use images/selectmultipledates.png>
+Package pdftex.def Info: images/selectmultipledates.png used on input line 344.
+
+(pdftex.def)             Requested size: 505.89pt x 264.34828pt.
+
+<images/search-availability.png, id=47, 1288.815pt x 672.5125pt>
+File: images/search-availability.png Graphic file (type png)
+
+<use images/search-availability.png>
+Package pdftex.def Info: images/search-availability.png used on input line 352.
+
+(pdftex.def)             Requested size: 505.89pt x 263.98225pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./images/search-location.png> <./images/selectmultipledates.png (PNG copy
+)>]
+<images/searchresults.png, id=51, 1288.815pt x 666.49pt>
+File: images/searchresults.png Graphic file (type png)
+
+<use images/searchresults.png>
+Package pdftex.def Info: images/searchresults.png used on input line 360.
+(pdftex.def)             Requested size: 505.89pt x 261.61824pt.
+
+<images/itemnew.png, id=52, 1288.815pt x 1132.23pt>
+File: images/itemnew.png Graphic file (type png)
+ <use images/itemnew.png>
+Package pdftex.def Info: images/itemnew.png used on input line 368.
+(pdftex.def)             Requested size: 505.89pt x 444.4358pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./images/search-availability.png (PNG copy)> <./images/searchresults.png 
+(PNG copy)>] <images/item.png, id=56, 1305.87875pt x 1270.7475pt>
+File: images/item.png Graphic file (type png)
+ <use images/item.png>
+Package pdftex.def Info: images/item.png used on input line 376.
+(pdftex.def)             Requested size: 505.89pt x 492.27383pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./images/itemnew.png>] <images/itemedit.png, id=62, 1285.80376pt x 1129.2
+1875pt>
+File: images/itemedit.png Graphic file (type png)
+
+<use images/itemedit.png>
+Package pdftex.def Info: images/itemedit.png used on input line 384.
+(pdftex.def)             Requested size: 505.89pt x 444.28763pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./images/item.png>] <images/myitems.png, id=67, 1288.815pt x 318.18875pt>
+File: images/myitems.png Graphic file (type png)
+
+<use images/myitems.png>
+Package pdftex.def Info: images/myitems.png used on input line 392.
+(pdftex.def)             Requested size: 505.89pt x 124.89906pt.
+
+<images/myorders.png, id=68, 1288.815pt x 671.50874pt>
+File: images/myorders.png Graphic file (type png)
+
+<use images/myorders.png>
+Package pdftex.def Info: images/myorders.png used on input line 400.
+(pdftex.def)             Requested size: 505.89pt x 263.58826pt.
+
+Underfull \vbox (badness 4569) has occurred while \output is active []
+
+ [15 <./images/itemedit.png> <./images/myitems.png (PNG copy)>]
+<images/orderview.png, id=73, 1293.83376pt x 674.52pt>
+File: images/orderview.png Graphic file (type png)
+
+<use images/orderview.png>
+Package pdftex.def Info: images/orderview.png used on input line 408.
+(pdftex.def)             Requested size: 505.89pt x 263.74103pt.
+
+<images/customerorders.png, id=74, 1291.82625pt x 674.52pt>
+File: images/customerorders.png Graphic file (type png)
+
+<use images/customerorders.png>
+Package pdftex.def Info: images/customerorders.png used on input line 416.
+(pdftex.def)             Requested size: 505.89pt x 264.14244pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./images/myorders.png (PNG copy)> <./images/orderview.png (PNG copy)>]
+<images/profile.png, id=78, 1282.7925pt x 669.50125pt>
+File: images/profile.png Graphic file (type png)
+
+<use images/profile.png>
+Package pdftex.def Info: images/profile.png used on input line 424.
+(pdftex.def)             Requested size: 505.89pt x 264.02614pt.
+
+<images/inbox-received.png, id=79, 1305.87875pt x 322.20375pt>
+File: images/inbox-received.png Graphic file (type png)
+
+<use images/inbox-received.png>
+Package pdftex.def Info: images/inbox-received.png used on input line 432.
+(pdftex.def)             Requested size: 505.89pt x 124.81824pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./images/customerorders.png (PNG copy)> <./images/profile.png>]
+<images/message.png, id=83, 1288.815pt x 349.305pt>
+File: images/message.png Graphic file (type png)
+ <use images/message.png>
+Package pdftex.def Info: images/message.png used on input line 440.
+(pdftex.def)             Requested size: 505.89pt x 137.11316pt.
+
+<images/composemessage.png, id=84, 1288.815pt x 538.01pt>
+File: images/composemessage.png Graphic file (type png)
+
+<use images/composemessage.png>
+Package pdftex.def Info: images/composemessage.png used on input line 448.
+(pdftex.def)             Requested size: 505.89pt x 211.1858pt.
+
+<images/previewmessage.png, id=85, 1281.78876pt x 518.93875pt>
+File: images/previewmessage.png Graphic file (type png)
+
+<use images/previewmessage.png>
+Package pdftex.def Info: images/previewmessage.png used on input line 456.
+(pdftex.def)             Requested size: 505.89pt x 204.80832pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./images/inbox-received.png> <./images/message.png (PNG copy)> <./images/
+composemessage.png (PNG copy)>]
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the US letter (8.5in X 11in) paper size.
+
+[19 <./images/previewmessage.png (PNG copy)>] (./root.aux) ) 
+Here is how much of TeX's memory you used:
+ 4619 strings out of 495021
+ 74037 string characters out of 6181344
+ 147693 words of memory out of 5000000
+ 7787 multiletter control sequences out of 15000+600000
+ 35174 words of font info for 64 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,8n,38p,1077b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on root.pdf (19 pages, 2425098 bytes).
+PDF statistics:
+ 110 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+

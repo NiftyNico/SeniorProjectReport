@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {I}INTRODUCTION}{3}
+\contentsline {section}{\numberline {II}PROBLEMS WITH EXISTING TECHNOLOGIES}{3}
+\contentsline {section}{\numberline {III}TARGET AUDIENCE}{3}
+\contentsline {section}{\numberline {IV}DESIGN AND IMPLEMENTATION}{3}
+\contentsline {subsection}{\numberline {IV-A}Operating Environment}{3}
+\contentsline {subsection}{\numberline {IV-B}Architectural Pattern}{3}
+\contentsline {section}{\numberline {V}FEATURES}{3}
+\contentsline {subsection}{\numberline {V-A}Tables}{3}
+\contentsline {subsection}{\numberline {V-B}Authentication}{3}
+\contentsline {subsection}{\numberline {V-C}Searching for Products}{4}
+\contentsline {subsection}{\numberline {V-D}Purchasing}{4}
+\contentsline {subsection}{\numberline {V-E}Product Management}{4}
+\contentsline {subsection}{\numberline {V-F}Interfacing with Other Users}{4}
+\contentsline {section}{\numberline {VI}PROBLEMS ENCOUNTERED}{5}
+\contentsline {subsection}{\numberline {VI-A}Database Change}{5}
+\contentsline {section}{\numberline {VII}FUTURE WORK}{5}
+\contentsline {subsection}{\numberline {VII-A}Subscriptions / Notification System}{5}
+\contentsline {subsection}{\numberline {VII-B}Comments / Feedback}{5}
+\contentsline {subsection}{\numberline {VII-C}Flagging Posts}{5}
+\contentsline {subsection}{\numberline {VII-D}View Upcoming Transactions}{5}
+\contentsline {subsection}{\numberline {VII-E}Sharing Contact Information}{5}
+\contentsline {subsection}{\numberline {VII-F}Usage Terms and Privacy Policy}{5}
+\contentsline {section}{\numberline {VIII}CONCLUSIONS}{5}
+\contentsline {section}{\numberline {IX}APPENDIX}{7}
+\contentsline {subsection}{\numberline {IX-A}Technologies Used}{7}
+\contentsline {subsection}{\numberline {IX-B}Data Dictionary}{8}
+\contentsline {subsection}{\numberline {IX-C}Figures}{8}
+\contentsline {subsection}{\numberline {IX-D}Special Thanks}{19}

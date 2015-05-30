@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out if you need a4paper
+
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+
+\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+
+\overrideIEEEmargins                                      % Needed to meet printer requirements.
+
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{array} %don't know why this is needed; get csname error otherwise
+
+\title{\LARGE \bf
+GreenPlace: A User Driven Marketplace for Produce
+}
+
+
+\author{Nicolas Higuera% <-this % stops a space
+}
+
+
+\begin{document}
+
+\newcommand{\refData}[1]{\textsuperscript{\ref{#1}}}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+As the world population grows food vendors need to be increasingly efficient in the distribution of their products\refData{product}. Products with short shelf-lives\refData{shelf-life} need to be distributed as quickly as possible in order to maximize potency\refData{potency}. Existing technologies\refData{existing-technologies} allowing the sale of goods from peer to peer lack key features to optimize usage for perishable goods\refData{perishable-good}. GreenPlace\refData{greenplace} provides superior methods to distribute perishable goods\refData{perishable-good} because sales must be set up considering the shelf-life\refData{shelf-life}.
+
+\end{abstract}
+
+
+\section{INTRODUCTION}
+
+Many existing technologies\refData{existing-technologies} currently exist for the sale of goods from peer to peer. Though good for most products\refData{product}, these technologies are difficult for use by vendors\refData{vendor} of perishable goods\refData{perishable-good}. GreenPlace\refData{greenplace} is a solution for facilitating peer to peer transactions between vendor\refData{vendor} and consumer\refData{consumer}. Users\refData{user} benefit from GreenPlace\refData{greenplace} because of it's simplified design, accessibility, powerful search methods, communication methods, and product\refData{product} management system.
+
+GreenPlace\refData{greenplace} is hosted in the cloud at www.greenplace.pw. This allows anyone with a computer and internet access to use GreenPlace\refData{greenplace}.
+
+\section{PROBLEMS WITH EXISTING TECHNOLOGIES}
+
+Peer to peer\refData{peer-to-peer} technologies like Craigslist are good for the sale of products\refData{product} that do not expire, however they lack the ability for products\refData{product} to be found by availability\refData{availability}. If the fruits on a tree are going to be harvested after a certain date, the farmer would have to add information inside the post stating when the apples are available. Similarly, users interested in purchasing a product available in the future have to view each post rather than being able to filter by availability\refData{availability} and shelf-life. Filtering search results based on availability\refData{availability} will simplify purchasing products.
+
+When searching Craigslist for an item, it can be difficult to filter results based on location. If you wish to search for an item within a 10 mile radius of your current location, you are forced to switch to map view and individually click on each listing to view the title of the link. Craigslist is also separated into sections to represent each local area. If searching with a radius extending outside of the local area, the search must be performed under each Craigslist sub-domain. Third party search engines such as www.SearchTempest.com exist to solely provide the ability to search all Craigslist for products\refData{product} within a certain distance of your location. By integrating this service users\refData{user} would be able to find their products\refData{product} in one stop.
+
+\section{DESIGN AND IMPLEMENTATION}
+
+\subsection{Authentication}
+
+When a user\refData{user} visits GreenPlace\refData{greenplace} they can choose to log into an existing account\refData{account}, create a new account\refData{account}, or skip authentication and access a limited portion of the site. Creating a new account is as simple as providing a valid email address, username, and password. The provided email address must be validly formatted and neither the username or email address can be in use by an existing user\refData{user}. Authenticating with an existing account\refData{account} is as simple as typing in the username or email and password associated with the user\refData{user}. Once a user\refData{user} has authenticated it's session is recorded in order to prevent the need for authenticating multiple times during a single usage session\refData{usage-session}.
+
+If authentication is skipped, the user\refData{user} can still access GreenPlace\refData{greenplace} by browsing and searching for posted products\refData{product}. If an unauthenticated user attempts to access any site feature other than browsing, searching, or viewing a product\refData{product}, they will be prompted to authenticate as all other features are require an authenticated account\refData{account} for use.
+
+\subsection{Searching for Products}
+
+Users\refData{user} can find and view products\refData{product} on GreenPlace\refData{greenplace} by using one of three methods: browsing, searching, or sharing. All of these methods are designed so that first time consumers\refData{consumer} view the benefits of becoming a regular user\refData{user}.
+
+Browsing for a product\refData{product} is done by selecting a location on an embedded map. Products\refData{product} are placed on the map as pins as the user\refData{user} pans to new locations or decreases the map scale. When a pin is clicked a box expands showing the product\refData{product} name, description, and vendor\refData{vendor}. The name and vendor are both hyperlinks that open tabs to the product\refData{product} and vendor\refData{vendor} pages respectively.
+
+More specific products\refData{product} can be found through performing a search. Searching is done through initially selecting a single location on a map and specifying a radius around that area where the product\refData{product} must exist. After specifying a location and radius the user\refData{user} must provide keywords. The keywords provided must exist in either the product\refData{product} name or description. Additional criteria which can be provided include time periods in which the vendor\refData{vendor} has marked as available for sale, the minimum quantity of units\refData{unit} available, and a minimum or maximum price for the desired quantity. Once the search criteria is filled and submitted, the user\refData{user} is shown all results on a filterable table containing product\refData{product} name, vendor\refData{vendor}, quantity, and price.
+
+If a vendor\refData{vendor} uses other advertising methods to distribute products\refData{product}, they can include a hyperlink to the product\refData{product} page to direct traffic toward their post. The hyperlink allows possible consumers\refData{consumer} to view the product\refData{product} without authentication. The product\refData{product} page includes information regarding the name, description, initial quantity, pricing, availability\refData{availability}, pickup location, and remaining quantity.
+
+\subsection{Purchasing}
+
+Once a consumer\refData{consumer} has found a product\refData{product} they wish to purchase, a button on the product\refData{product} page that when clicked redirects to an order form. On this form the consumer\refData{consumer} specifies the desired quantity, price, time of sale, and optional message to send to the vendor\refData{vendor}. The consumers\refData{consumer} orders can be changed after submission in order to edit the submitted information or delete the order entirely. The acceptance status\refData{acceptance-status} of the order is determined by the vendor\refData{vendor}.
+
+Handling purchases inside GreenPlace\refData{greenplace} allows users\refData{user} to manage all their information using a single service. This is to establish a standard form of communication between vendors\refData{vendor} and consumers\refData{consumer} and reduce the need to edit the vendors\refData{vendor} remaining quantity as products\refData{product} are sold.
+
+Note that an order cannot be placed on a product\refData{product} owned by the same user and will change acceptance status\refData{acceptance-status} to pending on any modification.
+
+\subsection{Product Management}
+
+Vendors\refData{vendor} submit their products\refData{product} to GreenPlace\refData{greenplace} by providing the product\refData{product} name, description, image, total quantity, pricing, availability\refData{availability}, and pickup location. The product\refData{product} description can be formatted using markdown\refData{markdown} to include hyperlinked, bolded, italicized, underlined, and sized text. These fields exist to organize the information for consumers\refData{consumer} browsing GreenPlace\refData{greenplace}. After submission, all product\refData{product} fields can be modified in case a change needs to be made. Before finalizing changes to an existing or submitting a new product\refData{product}, the vendor\refData{vendor} is shown a page where the post can be previewed. This feature is useful to ensure that the markdown formatted text appears as intended before submission.
+
+Once the product\refData{product} is submitted, the vendor\refData{vendor} manages orders placed on it by other users\refData{user}. The vendor\refData{vendor} can choose to accept or decline orders placed by other users\refData{user} resulting in a change of the remaining quantity available. The consumer\refData{consumer} can see the acceptance status\refData{acceptance-status} of their order set by the vendor\refData{vendor}. This feature exists to establish a standard means of communication regarding the sale and purchases of products\refData{product}. This allows the vendor\refData{vendor} to manage their remaining products\refData{product} and upcoming transactions in a single location, reducing the paperwork needed in order to conduct business. 
+
+\subsection{Interfacing with Customers}
+
+Each account\refData{account} has a customizable profile. This profile page allows other users\refData{user} to view public information posted by the account\refData{account} owner. The profile page can include a profile picture and text formatted with markdown\refData{markdown}.
+
+Users\refData{user} can message one another for any reason by clicking a button at the bottom of the profile page. A message must contain both a subject and description. All users\refData{user} have an inbox where messages can be viewed and a responses can be sent to the user\refData{user} that sent the message.
+
+\subsection{Security}
+
+\subsubsection{Database Injection}
+GreenPlace\refData{greenplace} is built using MongoDB. User\refData{user} inputs are not parsed meaning that injection is not possible.
+
+\subsubsection{Database Breach}
+If a malicious user\refData{user} gains access to the database, the user\refData{user} will have access to all information as it is all stored as plain text. User
+
+\subsubsection{XSS: Cross Site Scripting}
+Greenplace\refData{greenplace} was tested by a security expert at Workday. The found XSS vulnerabilities were fixed.
+
+\section{FUTURE WORK}
+All of the below features should be completed before the end of quarter two.
+
+\subsection{Database Change}
+MongoDB is a cool new technology, however it makes it difficult to perform aggregation queries. An example of this is that aggregating based on distance from a location and verifying a value exists inside of an array cannot be done in a single query. This makes some queries inefficient and difficult to construct. GreenPlace\refData{greenplace} would operate faster and become more scaleable by changing to a relational database.
+
+\subsection{Authentication}
+User\refData{user} credentials need to be stored into the database through encryption. Username, email, and password are a currently stored as plain text. If a user were to gain access to the database all of this information would be compromised.
+
+\subsection{Subscriptions / Notification System}
+Users\refData{user} should be able to receive notifications when they receive a message, a new order is placed on one of their products, and specific vendors\refData{vendor} post a new product\refData{product} for sale. These notifications should be able to be delivered to the user's\refData{user} email address. This would encourage users\refData{user} to return GreenPlace\refData{greenplace} to conduct business. 
+
+\subsection{Comments / Feedback}
+As GreenPlace\refData{greenplace} is in the early development process, feedback from users\refData{user} is important in order to determine features and modifications to consider making.
+
+\subsection{Flagging Posts}
+As with all online services, some users\refData{user} post inappropriate or illegal content. A method needs to exist to flag these users\refData{user} and products\refData{product} for removal.
+
+\subsection{Forgot Password}
+If a user\refData{user} forgets their password, they should be able to reset it from a url sent to the email address associated with the account\refData{account}.
+
+\section{CONCLUSIONS}
+GreenPlace\refData{greenplace} is a peer to peer\refData{peer-to-peer} marketplace designed for the sale of perishable goods\refData{perishable-good}. The software allows users\refData{user} to find products\refData{product}, communicate with other users\refData{user}, and manage their products\refData{product} in a single location. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\onecolumn
+\section*{APPENDIX}
+
+\subsection{Data Dictionary}
+% automatically number examples throughout document
+\newcounter{exno}
+\newenvironment{dictionary} {
+   \begin{flushleft}
+   \begin{tabular}{>{\refstepcounter{exno}\theexno.}l r}
+}
+{
+   \end{tabular}
+   \end{flushleft}
+}
+
+\begin{dictionary}
+   \hline
+   \label{greenplace} GreenPlace &SaaS created to facilitate peer to peer sales of perishable goods\\
+   \hline
+   \label{peer-to-peer} Peer to Peer &Direct sale and purchase of a product from one user to another\\
+   \hline
+   \label{product} Product &Anything that is produced and inteded for sale to another party\\
+   \hline
+   \label{vendor} Vendor &A person or company that sells products to another party\\
+   \hline
+   \label{consumer} Consumer &A person or company that purchases products\\
+   \hline
+   \label{user} User &A person or company that uses the website [vendor, consumer]\\
+   \hline
+   \label{perishable-good} Perishable Good &A product which has a fixed lifespan before it is no longer valid\\
+   \hline
+   \label{shelf-life} Shelf-Life &The amount of time a product can be left unused before it is no longer able to function properly\\
+   \hline
+   \label{potency} Potency &The effectiveness of a product to perform its intended purpose\\
+   \hline
+   \label{existing-technologies} Technology &Other marketplaces intended for peer to peer sales: Craigslist, Ebay, Amazon, etc.\\
+   \hline
+   \label{account} Account &Digital information that represents the user when using GreenPlace\\
+   \hline
+   \label{usage-session} Usage Session &the period of time from which a user begins using the marketplace until they move on to another activity\\
+   \hline
+   \label{unit} Unit &The unit used to quantify a product. Limited to litres, kilograms, and each individual product or a unit\\
+   \hline
+   \label{acceptance-status} Acceptance Status &Whether an order has been accepted, declined, or pending approval\\
+   \hline
+   \label{markdown} Markdown &Language that allows formatting of text\\
+   \hline
+   \label{saas} SaaS &Software as a service\\
+   \hline
+   \label{availability} Availability &The time which a sale can be conducted\\
+   \hline
+
+\end{dictionary}
+
+\subsection{Technologies}
+\begin{tabular}{ l r }
+  \hline
+  Technology & Purpose \\
+  \hline
+  NodeJS & HTTP server\\
+  \hline
+  Jade & HTML Templating\\
+  \hline
+   Passport & Authentication\\
+  \hline
+  MongoDB & Database\\
+  \hline
+  Mongoose & Communication between Node server and database service\\
+  \hline
+  Busboy & Parsing multipart form-data\\
+  \hline
+  Underscore & JavaScript helper functions\\
+  \hline
+  Marked & Rendering markdown text\\
+  \hline
+  Express-Session & Allow users to remain authenticated during usage session\\
+  \hline
+  Express & Handle AJAX requests\\
+  \hline
+  Google Maps JavaScript v3 API & Map interactions\\
+  \hline
+  Body-Parser & Parsing non multipart form-data\\
+  \hline
+  PureCSS & CSS library to style web page\\
+\end{tabular}
+
+\subsection{Special Thanks To}
+
+\subsubsection{Adam Currie}
+for creating the query that searches the database for matching products given keywords, location, availability, and minimum or maximum quantity
+
+\subsubsection{Justin Fujikawa}
+for adding functionality to allow users to edit their description using markdown text.
+
+\subsubsection{Clark Savage Turner}
+for mentoring and helping determine the project's scope.
+
+\subsubsection{Michael Higuera}
+for the brainstorming sessions and ideas generated from those sessions.
+
+\end{document}
